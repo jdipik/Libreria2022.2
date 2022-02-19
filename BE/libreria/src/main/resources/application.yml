@@ -11,5 +11,5 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
       dialect: org.hibernate.dialect.MySQL5Dialect
-      ddl-auto: none #none #create-drop
+      ddl-auto: update #none #create-drop #update
       naming-strategy: org.hybernate.cfg.ImpovedNamingStrategy
